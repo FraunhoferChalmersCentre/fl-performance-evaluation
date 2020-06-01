@@ -1,0 +1,15 @@
+erl_crash.dump
+*.beam
+*.goutputstream-*
+__pycache__
+
+src/state/user_in/*
+src/state/user_out/*
+src/state/edge_out/*
+src/state/edge_in/*
+
+src/logs/
+
+src/data/
+
+.ipynb_checkpoints

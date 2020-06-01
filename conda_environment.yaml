@@ -1,0 +1,16 @@
+# This is a contained environment for Anaconda/Miniconda.
+name: fl-eval
+channels:
+- 'conda-forge'
+- 'defaults'
+dependencies:
+- python=3.6
+- pip=9.0.1
+- tensorflow=1.10
+- keras=2.1
+- numpy=1.16
+- notebook
+- matplotlib=2.2.3
+- scikit-learn=0.19.1
+- pip:
+  - baycomp==1.0.1
